@@ -1,0 +1,36 @@
+.sectionLogin{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sectionLogin header{
+    height: 150px;
+}
+.sectionLogin form{
+    height: 90%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    color: black
+}
+
+.sectionLogin form section{
+    width: 40%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sectionLogin form section input {
+    width: 70%;
+    height: 30%;
+    outline: none;    
+}
